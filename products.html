@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiGi Cosmetics</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- app css -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- mobile menu -->
+        <div class="mobile-menu bg-second">
+            <a href="#" class="mb-logo">GiGi</a>
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+                <i class='bx bx-menu'></i>
+            </span>
+        </div>
+        <!-- end mobile menu -->
+
+        <!-- main header -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>
+            </span>
+            <!-- top header -->
+            <div class="bg-forth">
+                <div class="top-header container">
+                    <ul class="devided">
+                        <li>
+                            <a href="#">Frete Grátis </a>
+                        </li>
+                        <li>
+                            <a href="#">Inscreva-se</a>
+                        </li>
+                    </ul>
+                    <ul class="devided">
+                        <li class="dropdown">
+                            <a href="">R$</a>
+                            <i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#">USD</a></li>
+                                <li><a href="#">YEN</a></li>
+                                <li><a href="#">EUR</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="">PORTUGUÊS</a>
+                            <i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#">ENGLISH</a></li>
+                                <li><a href="#">普通话</a></li>
+                                <li><a href="#">FRENCH</a></li>
+                                <li><a href="#">SPANISH</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">PEDIDOS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end top header -->
+            <!-- mid header -->
+            <div class="bg-main">
+                <div class="mid-header container">
+                    <a href="index.html" class="logo">GiGi Cosmetics</a>
+                    <div class="search">
+                        <input type="text" placeholder="Busca por...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                    <ul class="user-menu">
+                        <li><a href="#"><i class='bx bx-heart'></i></a></li>
+                        <li><a href="#"><i class='bx bx-user'></i></a></li>
+                        <li><a href="#"><i class='bx bx-shopping-bag'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end mid header -->
+            <!-- bottom header -->
+            <div class="bg-second">
+                <div class="bottom-header container">
+                    <ul class="main-menu">
+                        <li><a href="#">novidades</a></li>
+                        <!-- mega menu -->
+                        <li class="mega-dropdown">
+                            <a href="products.html">Maquiagem<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Lábios</h3>
+                                            <ul>
+                                                <li><a href="#">Batom</a></li>
+                                                <li><a href="#">Batom Líquido</a></li>
+                                                <li><a href="#">Gloss e Brilho</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Olhos</h3>
+                                            <ul>
+                                                <li><a href="#">Sombras</a></li>
+                                                <li><a href="#">Delineador e Lápis de Olhos</a></li>
+                                                <li><a href="#">Máscara de Cílios</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Unhas</h3>
+                                            <ul>
+                                                <li><a href="#">Esmaltes</a></li>
+                                                <li><a href="#">Base e Top Coat</a></li>
+                                                <li><a href="#">Acessórios</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Face</h3>
+                                            <ul>
+                                                <li><a href="#">Base</a></li>
+                                                <li><a href="#">Corretivo</a></li>
+                                                <li><a href="#">Pó</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row img-row">
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/christianlouboutin-rougelouboutin-velvet-matte-1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/Son-Dior-Rouge-634-Strong-Matte-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/son-kem-ysl-425-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/Son-Dior-Rouge-634-Strong-Matte.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <!-- mega menu 2-->
+                        <li class="mega-dropdown">
+                            <a href="./products.html">Perfumes<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Floral</h3>
+                                            <ul>
+                                                <li><a href="#">Feminino</a></li>
+                                                <li><a href="#">Masculinos</a></li>
+                                                <li><a href="#">Unissex</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Amadeirado</h3>
+                                            <ul>
+                                                <li><a href="#">Feminino</a></li>
+                                                <li><a href="#">Masculinos</a></li>
+                                                <li><a href="#">Unissex</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Oriental</h3>
+                                            <ul>
+                                                <li><a href="#">Feminino</a></li>
+                                                <li><a href="#">Masculinos</a></li>
+                                                <li><a href="#">Unissex</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Cítrico</h3>
+                                            <ul>
+                                                <li><a href="#">Feminino</a></li>
+                                                <li><a href="#">Masculinos</a></li>
+                                                <li><a href="#">Unissex</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row img-row">
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/christianlouboutin-rougelouboutin-velvet-matte-1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/Son-Dior-Rouge-634-Strong-Matte-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/son-kem-ysl-425-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/Son-Dior-Rouge-634-Strong-Matte.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <!-- mega menu 3-->
+                        <li class="mega-dropdown">
+                            <a href="./products.html">Tratamento<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Face</h3>
+                                            <ul>
+                                                <li><a href="#">Limpeza</a></li>
+                                                <li><a href="#">Hidratante</a></li>
+                                                <li><a href="#">Anti-Idade</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Olhos</h3>
+                                            <ul>
+                                                <li><a href="#">Hidratante</a></li>
+                                                <li><a href="#">Anti-olheiras</a></li>
+                                                <li><a href="#">Anti-Idade</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Corpo</h3>
+                                            <ul>
+                                                <li><a href="#">Celulite</a></li>
+                                                <li><a href="#">Esfoliante</a></li>
+                                                <li><a href="#">Hidratante</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Lábios</h3>
+                                            <ul>
+                                                <li><a href="#">Hidratante</a></li>
+                                                <li><a href="#">Anti-idade</a></li>
+                                                <li><a href="#">Lorem</a></li>
+                                                <li><a href="#">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row img-row">
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/christianlouboutin-rougelouboutin-velvet-matte-1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/Son-Dior-Rouge-634-Strong-Matte-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/son-kem-ysl-425-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/Son-Dior-Rouge-634-Strong-Matte.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <!-- mega menu 3-->
+                        <li class="mega-dropdown">
+                            <a href="./products.html">Corpo & Banho<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Desodorante</h3>
+                                            <ul>
+                                                <li><a href="#">Spray</a></li>
+                                                <li><a href="#">Roll-on</a></li>
+                                                <li><a href="#">Stick</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Mãos e Pés</h3>
+                                            <ul>
+                                                <li><a href="#">Mão</a></li>
+                                                <li><a href="#">Pés</a></li>
+                                                <li><a href="#">lorem</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Banho</h3>
+                                            <ul>
+                                                <li><a href="#">Sabonete em Barra</a></li>
+                                                <li><a href="#">Sabonete Líquido</a></li>
+                                                <li><a href="#">Sais de Banho</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Óleos</h3>
+                                            <ul>
+                                                <li><a href="#">Óleo de Banho</a></li>
+                                                <li><a href="#">Óleo de Massagem</a></li>
+                                                <li><a href="#">Pós banho</a></li>
+                                                <li><a href="products.html">Ver Tudo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row img-row">
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/christianlouboutin-rougelouboutin-velvet-matte-1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/Son-Dior-Rouge-634-Strong-Matte-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/son-kem-ysl-425-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/Son-Dior-Rouge-634-Strong-Matte.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <!-- mega menu 4-->
+                        <li class="mega-dropdown">
+                            <a href="./products.html">Cabelos<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Shampoo</h3>
+                                            <ul>
+                                                <li><a href="#">lorem</a></li>
+                                                <li><a href="#">lorem</a></li>
+                                                <li><a href="#">lorem</a></li>
+                                                <li><a href="#">lorem</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Condicionador</h3>
+                                            <ul>
+                                                <li><a href="#">lorem</a></li>
+                                                <li><a href="#">lorem</a></li>
+                                                <li><a href="#">lorem</a></li>
+                                                <li><a href="#">lorem</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Máscara</h3>
+                                            <ul>
+                                                <li><a href="#">lorem</a></li>
+                                                <li><a href="#">lorem</a></li>
+                                                <li><a href="#">lorem</a></li>
+                                                <li><a href="#">lorem</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Finalizador</h3>
+                                            <ul>
+                                                <li><a href="#">Creme Alisante</a></li>
+                                                <li><a href="#">Bálsamo Suavizante</a></li>
+                                                <li><a href="#">Reparador de Pontas</a></li>
+                                                <li><a href="#">Spray de Brilho</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row img-row">
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/christianlouboutin-rougelouboutin-velvet-matte-1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/Son-Dior-Rouge-634-Strong-Matte-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/son-kem-ysl-425-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="/img/products/lips/Son-Dior-Rouge-634-Strong-Matte.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <li><a href="#">ofertas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end bottom header -->
+        </div>
+        <!-- end main header -->
+    </header>
+    <!-- end header -->
+
+    <!--MAIN-->
+    <!-- products content -->
+    <div class="bg-main">
+        <div class="container">
+            <div class="box">
+                <div class="breadcumb">
+                    <a href="./index.html">home</a>
+                    <span><i class='bx bxs-chevrons-right'></i></span>
+                    <a href="./products.html">todos os produtos</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="row">
+                    <div class="col-3 filter-col" id="filter-col">
+                        <div class="box filter-toggle-box">
+                            <button class="btn-flat btn-hover" id="filter-close">fechar</button>
+                        </div>
+                        <div class="box">
+                            <span class="filter-header">
+                                Categorias
+                            </span>
+                            <ul class="filter-list">
+                                <li><a href="#">Lorem</a></li>
+                                <li><a href="#">Lorem</a></li>
+                                <li><a href="#">Lorem</a></li>
+                                <li><a href="#">Lorem</a></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <span class="filter-header">
+                                Preço
+                            </span>
+                            <div class="price-range">
+                                <input type="text">
+                                <span>-</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <ul class="filter-list">
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="status1">
+                                        <label for="status1">
+                                            Em oferta
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="status2">
+                                        <label for="status2">
+                                            Em estoque
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="status3">
+                                        <label for="status3">
+                                            Novidade
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <span class="filter-header">
+                                Marcas
+                            </span>
+                            <ul class="filter-list">
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1" checked="checked">
+                                        <label for="remember1">
+                                            Lorem
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember2">
+                                        <label for="remember2">
+                                            Lorem
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember3">
+                                        <label for="remember3">
+                                            Lorem
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember4">
+                                        <label for="remember4">
+                                            Lorem
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember5">
+                                        <label for="remember5">
+                                            Lorem
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <span class="filter-header">
+                                Cores
+                            </span>
+                            <ul class="filter-list">
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">
+                                            Lorem
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember2">
+                                        <label for="remember2">
+                                            Lorem
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember3">
+                                        <label for="remember3">
+                                            Lorem
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember4">
+                                        <label for="remember4">
+                                            Lorem
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember5">
+                                        <label for="remember5">
+                                            Lorem
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <span class="filter-header">
+                                Avaliação
+                            </span>
+                            <ul class="filter-list">
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">
+                                            <span class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                            </span>
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">
+                                            <span class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bx-star'></i>
+                                            </span>
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">
+                                            <span class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bx-star'></i>
+                                                <i class='bx bx-star'></i>
+                                            </span>
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">
+                                            <span class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bx-star'></i>
+                                                <i class='bx bx-star'></i>
+                                                <i class='bx bx-star'></i>
+                                            </span>
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">
+                                            <span class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bx-star'></i>
+                                                <i class='bx bx-star'></i>
+                                                <i class='bx bx-star'></i>
+                                                <i class='bx bx-star'></i>
+                                            </span>
+                                            <i class='bx bx-check'></i>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-9 col-md-12">
+                        <div class="box filter-toggle-box">
+                            <button class="btn-flat btn-hover" id="filter-toggle">filtro</button>
+                        </div>
+                        <!--JS-->
+                        <div class="box">
+                            <div class="row" id="products"></div>
+                        </div>
+                        <!--End JS-->
+                        <div class="box">
+                            <ul class="pagination">
+                                <li><a href="#"><i class='bx bxs-chevron-left'></i></a></li>
+                                <li><a href="#" class="active">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#"><i class='bx bxs-chevron-right'></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end products content -->
+
+    <!-- FOOTER -->
+    <footer class="bg-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">Produtos</h3>
+                    <ul class="menu">
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">serviços</h3>
+                    <ul class="menu">
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">suporte</h3>
+                    <ul class="menu">
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="contact">
+
+                        <a class="contact-header" href="index.html"><h3>
+                            GiGi
+                        </h3></a>
+                        <div class="social-bar">
+                            <div class="social-icons">
+                                <a href="#" target="_blank" class="slider-nav-item"><i class="bx bxl-facebook"></i></a>
+                                    
+                                <a href="#" target="_blank"class="slider-nav-item"><i class="bx bxl-twitter"></i></a>
+                                    
+                                <a href="#" target="_blank"class="slider-nav-item"><i class="bx bxl-instagram-alt"></i></a>
+        
+                                <a href="#" target="_blank"class="slider-nav-item"><i class="bx bxl-youtube"></i></a>
+                            </div>
+                        </div>
+                        <!--<ul class="contact-socials">
+                            <li><a href="#">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-instagram-alt'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-youtube'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-twitter'></i>
+                                </a></li>
+                        </ul>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright © 2021. Todos os direitos reservados. As fotos aqui veiculadas, logotipo e marca são de propriedade do LOGO.</p>
+
+            <p>LOGO LTDA. CNPJ 00.000.000/0000-00 - Av. Lorem, 0000, 00 Andar, Lorem Ypsilum - 00000-000 - Lorem/LO</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- app js -->
+    <script src="./js/app.js"></script>
+    <script src="./js/products.js"></script>
+</body>
+
+</html>
