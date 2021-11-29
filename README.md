@@ -54,6 +54,6 @@ Este programa de capacitação vai muito além da contratação de desenvolvedor
 
 # Preview
 
-![name-of-you-image](https://your-copied-image-address)
+![Página com detalhes do produto](https://github.com/MrsRibeiroGabriela/enext-projeto-final/blob/main/img/assets/GiGi%20Cosmetics-product-detail-%20127.0.0.1.png?raw=true)
 
 
